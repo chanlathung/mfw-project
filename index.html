@@ -19,6 +19,7 @@
     <title>C&P Designs</title>
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-light p-2">
       <div class="container-fluid">
           <a class="navbar-brand" style="font-family: 'Libre Baskerville', Times, sans serif; color: black;" href="#">C&P Designs</a>
@@ -32,7 +33,7 @@
           <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#recent-designs">Recent Designs</a>
+              <a class="nav-link" href="#">Recent Designs</a>
             </div>
           </div>
           <!-- Contact Us Button | Md-Lg View-->
@@ -94,15 +95,53 @@
       <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis sint porro nihil, cum, pariatur eum sequi numquam modi ipsum alias velit labore obcaecati eos architecto repudiandae vel sunt ullam.</p>       
     </div>
 
+    <!-- Contact Form -->
+    <h1 class="text-center p-5" style="font-family: 'Libre Baskerville', Times, sans serif;">Let's Discuss Your Project</h1>
+    <form class="row g-3 p-4">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="name@example.com">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Bathroom, kitchen, or etc">
+      </div>
+      <div class="col-md-12">
+        <!-- <label for="inputCity" class="form-label">Message</label>
+        <input type="textarea" class="form-control" id="inputCity"> -->
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <div class="col-12 pt-2">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Join our mailing list?
+          </label>
+        </div>
+      </div>
+      <div class="col-12 pt-2">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+    
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+   
   </body>
 </html>
