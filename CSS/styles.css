@@ -8,10 +8,27 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar-nav .nav-link {
+        margin: 1px;
+        padding: 48px;
+        border-bottom: none;
         background-color: #f8f9fa;
         font-size: 24px;
+    }
+    .navbar {
+        margin: 24px;
     }    
-
+    .showroom {
+        margin-top: 15px;
+    }
 } 
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        margin: 24px;
+    }
+    .navbar .nav-link {
+        margin: 0px 16px;
+    }
+}
