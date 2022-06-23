@@ -19,17 +19,18 @@
     <title>C&P Designs</title>
   </head>
   <body>
+    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light border-bottom">
       <div class="container-fluid">
-          <a class="px-5 navbar-brand" style="font-family: 'Libre Baskerville', Times, sans serif; color: black;" href="#">C&P Designs</a>
-          <button class="px-5 navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" style="font-family: 'Libre Baskerville', Times, sans serif; color: black;" href="#">C&P Designs</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
             <div class="navbar-nav ">
-              <a class="nav-link p-5 m-1 fs-5" aria-current="page" href="#form">Contact Us</a>
-              <a class="nav-link p-5 m-1 fs-5" href="#recent-designs">Recent Designs</a>
+              <a class="nav-link fs-5" aria-current="page" href="#form">Contact</a>
+              <a class="nav-link fs-5" href="#recent-designs">Recent Designs</a>
             </div>
           </div>
         </div>
@@ -50,13 +51,13 @@
       <h6 class="fs-4 mt-5" style="font-family: 'Libre Baskerville', Times, sans serif;">Recent Designs</h6>
       <p class="fs-4 fw-bolder;" style="font-family: Montserrat;">Bathrooms, kitchens, and co-working spaces.</p>
         <div class="d-md-none">
-          <div class="mb-4">
+          <div class="mb-2">
             <img src="IMG/bathroom.jpg" class="img-fluid" alt="white ceramic sink near bathtub">
           </div>
-          <div class="mb-4">
+          <div class="mb-2">
             <img src="IMG/kitchen.jpg" class="img-fluid" alt="wooden stools near white kitchen island">  
           </div>  
-          <div class="mb-4">
+          <div class="mb-2">
             <img src="IMG/coworking-space.jpg" class="img-fluid" alt="person using laptop">  
           </div>
         </div>
@@ -92,46 +93,92 @@
     </div>
     
     <!-- Customer Reviews -->
-    <div class="text-center p-5 fs-4" >
-      <p style="font-family: Montserrat, Times, sans-serif;">Customer Reviews</p> 
+    <div class="text-center m-4 p-3 fs-5 bg-light" >
+      <h4 style="font-family: Montserrat, Times, sans-serif;">Customer Reviews</h4> 
       <p style="font-family: Montserrat, Times, sans-serif;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis sint porro nihil, cum, pariatur eum sequi numquam modi ipsum alias velit labore obcaecati eos architecto repudiandae vel sunt ullam."
         <br> Customer on <a class="text-decoration-none" href="https://www.yelp.com/">Yelp</a> 
       </p>       
     </div>
 
+    <!-- Accordion -->
+    <div class="m-4 p-3 bg-light">
+      <h3 class="text-center pb-3" style="font-family: Montserrat, Times, sans-serif;">Frequently Asked Questions</h3>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" style="text-transform: uppercase;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              covid-19
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Q: What are your protocols for COVID-19?</strong><p>A: Your safety and the safety of our team members are our top priority during all stages of the project. That is why our team members are regularly tested before and during projects, as well as wearing protective face coverings at all times and maintaining physical distance.</p>
+              <strong>Q: What happens if someone tests positive for COVID-19?</strong><p>A: All involved team members are notified and the project will be temporarily put on hold (usually about 2 days) while team members get tested. Team members who do not test positive for COVID-19 will resume the project the day after receiving test results..</p>
+              <strong>Q: What happens if I, or someone in my household tests positive for COVID-19?</strong><p>A: Safety is our top priority. In the event you or someone in your household tests positive for COVID-19, all work on the project will be put on hold until all affected personnel test negative for COVID-19.</p><p>For more information about COVID-19 please see <a href="https://www.fda.gov/emergency-preparedness-and-response/counterterrorism-and-emerging-threats/coronavirus-disease-2019-covid-19">fda.gov</a> for more information.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Do I have to move out of my house during remodeling?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             <p>
+              A: Our teams are able to complete remodeling of your spaces while you live in your home. We use Air Cleaners and HVAC Filters in all indoor project areas that maintain a particulate free environment to ensure that it is safe to live in your home during remodeling.
+             </p>   
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Do you offer free consultation?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Our team of experts are ready to talk to you about your needs and answer your questions. Schedule a free consulation or visit us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Contact Form -->
-    <h1 class="text-center pt-5 pb-2" style="font-family: 'Libre Baskerville', Times, sans serif;" id="form">Let's Discuss Your Next Project</h1>
+    <h1 class="text-center pt-5 pb-2" style="font-family: 'Libre Baskerville', Times, sans serif;" id="form">Let's Discuss Your Project</h1>
     <div class="container">
-      <div class="row">
+      <div class="row border shadow">
         <div class="col-12 col-md-6 pt-3 pb-3">
           <form class="row g-2">
-            <h3 class="text-center" style="font-family: Montserrat, Times, sans-serif;">Contact Us</h3>
+            <h4 class="text-center" style="font-family: Montserrat, Times, sans-serif;">Contact Us</h4>
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="inputEmail4">
+              <label for="floatingInput" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="floatingInput">
             </div>
             <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="inputPassword4">
+              <label for="floatingInput" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="floatingInput">
             </div>
             <div class="col-12">
               <label for="inputEmail4" class="form-label">Email</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="name@example.com">
+              <input type="text" class="form-control" id="inputEmail4" placeholder="name@example.com">
             </div>
             <div class="col-12">
-              <label for="inputAddress2" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Bathroom, kitchen, or etc">
+              <label for="inputPhone" class="form-label">Phone</label>
+              <input type="text" class="form-control" id="inputPhone">
             </div>
             <div class="col-md-12">
-              <!-- <label for="inputCity" class="form-label">Message</label>
-              <input type="textarea" class="form-control" id="inputCity"> -->
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <label for="exampleFormControlTextarea1" class="form-label">Let Us Know What You Need</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <div class="col-12 pt-2 pb-2">
+            </div>  
+            <div class="col-12 pt-2 pb-4">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="gridCheck">
                 <label class="form-check-label" for="gridCheck">
-                  Join our mailing list?
+                  Join our newsletter
                 </label>
               </div>
             </div>
@@ -140,13 +187,12 @@
             </div>
           </form>
         </div>
-      </div>
-      <div class="col-12 col-md-6 pt-3">
-        <h3 class="text-center pb-4" style="font-family: Montserrat, Times, sans-serif;">Visit Our Showroom</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.997872412109!2d-122.2467187489333!3d37.531547433789356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f98bd11a9bedf%3A0xf8cd17448ad9322f!2sRedwood%20Shores%20Pkwy%2C%20Redwood%20City%2C%20CA%2094065!5e0!3m2!1sen!2sus!4v1655941424556!5m2!1sen!2sus" width="100%" height="440px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-12 col-md-6 showroom">
+          <h4 class="text-center pt-3 pb-3" style="font-family: Montserrat, Times, sans-serif;">Visit Our Showroom</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.997872412109!2d-122.2467187489333!3d37.531547433789356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f98bd11a9bedf%3A0xf8cd17448ad9322f!2sRedwood%20Shores%20Pkwy%2C%20Redwood%20City%2C%20CA%2094065!5e0!3m2!1sen!2sus!4v1655941424556!5m2!1sen!2sus" width="100%" height="455px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </div>
-    
     
 
     <!-- Optional JavaScript; choose one of the two! -->
